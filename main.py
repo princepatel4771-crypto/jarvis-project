@@ -8,8 +8,8 @@ import google.generativeai as genai
 # -------------------------
 # CONFIGURATION
 # -------------------------
-NEWS_API_KEY = "95242417ed364467be81abdc1da2c53e"
-GEMINI_API_KEY = "AIzaSyDSKLcWL-NRuLhGIZt6BLZPFFH4fGQzJkA"
+NEWS_API_KEY = "YOUR NEWS API KEY "
+GEMINI_API_KEY = "YOUR GEMINI API KEY "
 
 genai.configure(api_key=GEMINI_API_KEY)
 
